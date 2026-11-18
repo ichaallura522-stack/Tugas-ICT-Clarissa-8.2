@@ -1,0 +1,344 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: darkslategray;
+    padding: 35px 15px;
+}
+
+.Clarissa-container {
+    max-width: 1050px;
+    margin: auto;
+    padding: 25px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 35px rgba(70, 90, 140, 0.12);
+}
+
+.Clarissa-header {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 25px;
+    background: linear-gradient(120deg, lavender, aliceblue);
+    border: 1px solid lavender;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.Clarissa-profile-photo {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+border: 5px solid white;
+
+}
+
+.Clarissa-header-info h1 {
+    font-size: 30px;
+    color: royalblue;
+    font-weight: 800;
+}
+
+.Clarissa-header-info h3 {
+    font-size: 16px;
+    color: slategray;
+    margin-top: 5px;
+}
+
+.Clarissa-header-info p {
+    font-size: 12px;
+    color: lightslategray;
+    margin-top: 12px;
+}
+
+.Clarissa-top-grid {
+    display: grid;
+    grid-template-columns: 0.85fr 1.5fr;
+    gap: 18px;
+    margin-bottom: 20px;
+}
+
+.Clarissa-card {
+    padding: 22px;
+    border-radius: 14px;
+    border: 1px solid lavender;
+    box-shadow: 0 4px 15px rgba(70, 90, 140, 0.05);
+}
+
+.Clarissa-card h2 {
+    font-size: 17px;
+    color: royalblue;
+    margin-bottom: 18px;
+}
+
+.Clarissa-section-title {
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 7px;
+    background: lavender;
+    color: royalblue;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.Clarissa-music-card {
+    background: lavender;
+}
+
+.Clarissa-music-cover {
+    height: 130px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, thistle, lavender);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.Clarissa-music-card h3 {
+    font-size: 14px;
+    color: slateblue;
+}
+
+.Clarissa-music-card .Clarissa-section-title {
+    width: 75%;
+    background: aliceblue;
+    color: mediumpurple;
+    margin-bottom: 12px;
+}
+
+.Clarissa-song-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 17px 0;
+}
+
+.Clarissa-song-dot {
+    width: 25px;
+    height: 25px;
+    border: 2px solid lavender;
+    border-radius: 50%;
+    flex-shrink: 0;
+    background: white;
+}
+
+.Clarissa-song-line {
+    height: 2px;
+    background: mediumpurple;
+    flex: 1;
+    border-radius: 10px;
+}
+
+/* BAGIAN 3 - BIODATA */
+
+.Clarissa-biodata-card {
+    background: #E8F8F5;
+}
+
+.Clarissa-bio-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 15px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #CDEBE5;
+    font-size: 12px;
+    color: #648B84;
+}
+
+.Clarissa-bio-label {
+    width: 105px;
+    font-weight: 600;
+    color: #47877F;
+}
+
+.Clarissa-bio-value {
+    flex: 1;
+}
+
+.Clarissa-middle-grid {
+    display: grid;
+    grid-template-columns: 1.55fr 0.9fr;
+    gap: 18px;
+    margin-bottom: 20px;
+}
+
+.Clarissa-education-card {
+    background: #FFFFFF;
+}
+
+.Clarissa-education-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 0;
+    border-bottom: 1px solid #E4EAF5;
+}
+
+.Clarissa-edu-icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 10px;
+    background: #E3EBFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5774B8;
+    font-size: 18px;
+}
+
+.Clarissa-education-item h3 {
+    font-size: 12px;
+    color: #52699F;
+}
+
+.Clarissa-education-item p {
+    font-size: 11px;
+    color: #8995AE;
+    margin-top: 4px;
+}
+
+.Clarissa-dream-card {
+    background: antiquewhite;
+}
+
+.Clarissa-dream-icon {
+    height: 125px;
+    background: linear-gradient(135deg, peachpuff, papayawhip);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.Clarissa-dream-card h3 {
+    font-size: 14px;
+    color: #AD7947;
+    margin-bottom: 10px;
+}
+
+.Clarissa-dream-card p {
+    font-size: 12px;
+    color: tan;
+    line-height: 1.9;
+}
+
+/* BAGIAN KRITERIA */
+
+.Clarissa-kriteria-card {
+    background: #edf3ff;
+    border: 1px solid #dce6ff;
+    border-radius: 22px;
+    padding: 34px;
+    width: 100%;
+    max-width: 700px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.Clarissa-card-title {
+    display: inline-block;
+    background: #dce7ff;
+    color: #3564ad;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 25px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+.Clarissa-criteria-list {
+    /* Daftar kriteria */
+}
+
+.Clarissa-criteria-item {
+    margin-bottom: 22px;
+}
+
+.Clarissa-criteria-item span {
+    color: #5276b9;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.Clarissa-criteria-item p {
+    color: #5276b9;
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 8px 0 0;
+}
+
+.Clarissa-criteria-item:last-child {
+    margin-bottom: 0;
+}
+
+.Clarissa-progress {
+    width: 100%;
+    height: 11px;
+    background-color: #d6e1f7;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.Clarissa-progress-fill {
+    height: 100%;
+    background-color: #91a8ef;
+    border-radius: 20px;
+}
+
+/* FOOTER */
+
+.Clarissa-footer {
+    text-align: center;
+    padding: 20px 10px 5px;
+    color: #99A5BD;
+    font-size: 11px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 650px) {
+
+    body {
+        padding: 12px;
+    }
+
+    .Clarissa-container {
+        padding: 14px;
+    }
+
+    .Clarissa-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .Clarissa-header-info h1 {
+        font-size: 24px;
+    }
+
+    .Clarissa-top-grid,
+    .Clarissa-middle-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .Clarissa-profile-photo {
+        width: 115px;
+        height: 115px;
+    }
+
+    .Clarissa-bio-item {
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,215 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <title>My favorite</title>
+  <link rel="icon" href="https://www.santa-laurensia.com/sutera/wp-content/uploads/2024/10/logo-las-286x300-1.png">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+    body { background: #f0f0f0; display: flex; justify-content: center; padding: 20px; }
+    .Rosie-container { width: 100%; max-width: 800px; background: #fff; border: 2px solid #333; padding: 15px; display: flex; flex-direction: column; gap: 15px; }
+    .Rosie-box { border: 2px solid #333; padding: 15px; }
+    .Rosie-title-pill { display: inline-block; border: 1px solid #333; border-radius: 20px; padding: 6px 18px; margin-bottom: 12px; }
+    .Rosie-line { height: 2px; background: #333; margin: 12px 0; }
+    .Rosie-img-placeholder { background: #e8e8e8; border: 2px solid #333; }
+    .Rosie-img-circle { border-radius: 50%; }
+    .Rosie-img-square { border-radius: 0; }
+    .Rosie-biodata { display: flex; gap: 20px; }
+    .Rosie-biodata .Rosie-foto { width: 180px; height: 180px; flex-shrink: 0; }
+    .Rosie-biodata-right { flex: 1; }
+    .Rosie-biodata-right .Rosie-title-pill { width: 100%; }
+    .Rosie-biodata-row { display: flex; align-items: center; gap: 10px; margin: 14px 0; }
+    .Rosie-biodata-row .Rosie-label { width: 70px; height: 18px; border: 1.5px solid #333; }
+    .Rosie-biodata-row .Rosie-value { flex: 1; height: 2px; background: #333; }
+    .Rosie-row-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+    .Rosie-lagu-item { display: flex; align-items: center; gap: 10px; margin: 12px 0; }
+    .Rosie-lagu-item .Rosie-check { width: 18px; height: 18px; border: 2px solid #333; flex-shrink: 0; }
+    .Rosie-lagu-item .Rosie-line { flex: 1; margin: 0; }
+    .Rosie-penyanyi-top { display: flex; gap: 12px; align-items: center; }
+    .Rosie-penyanyi-top .Rosie-foto-kecil { width: 60px; height: 60px; flex-shrink: 0; }
+    .Rosie-penyanyi-top .Rosie-title-pill { flex: 1; }
+    .Rosie-dot-list { list-style: none; margin-top: 12px; }
+    .Rosie-dot-list li { display: flex; align-items: center; gap: 10px; margin: 14px 0; }
+    .Rosie-dot-list li::before { content: ""; width: 8px; height: 8px; background: #333; border-radius: 50%; flex-shrink: 0; }
+    .Rosie-dot-list li .Rosie-line { flex: 1; margin: 0; }
+    .Rosie-row-3 { display: grid; grid-template-columns: 2fr 1fr; gap: 15px; }
+    .Rosie-gender-row { display: flex; gap: 15px; align-items: center; margin-bottom: 15px; }
+    .Rosie-gender-row .Rosie-img-square { width: 80px; height: 80px; }
+    .Rosie-gender-row .Rosie-title-pill { flex: 1; border-radius: 0; }
+    .Rosie-minuman-box { display: flex; flex-direction: column; }
+    .Rosie-minuman-box .Rosie-title-pill { width: 100%; border-radius: 0; text-align: center; }
+    .Rosie-minuman-imgs { display: flex; justify-content: space-between; gap: 15px; margin: 15px 0; }
+    .Rosie-minuman-imgs .Rosie-img-circle { width: 110px; height: 110px; }
+    .Rosie-minuman-lines { display: flex; justify-content: space-between; gap: 15px; }
+    .Rosie-minuman-lines .Rosie-line { flex: 1; }
+    .Rosie-cita-box { display: flex; flex-direction: column; }
+    .Rosie-cita-box .Rosie-img-square { width: 100%; height: 180px; }
+    .Rosie-makanan .Rosie-title-pill { display: block; width: 60%; margin: 0 auto 20px; text-align: center; border-radius: 0; }
+    .Rosie-makanan-imgs { display: flex; justify-content: space-between; gap: 15px; }
+    .Rosie-makanan-imgs .Rosie-img-circle { width: 110px; height: 110px; }
+    .Rosie-makanan-lines { display: flex; justify-content: space-between; gap: 15px; margin-top: 15px; }
+    .Rosie-makanan-lines .Rosie-line { flex: 1; }
+
+
+
+
+    @media (max-width: 600px) {
+      .Rosie-biodata { flex-direction: column; align-items: center; }
+      .Rosie-row-2, .Rosie-row-3 { grid-template-columns: 1fr; }
+      .Rosie-minuman-imgs, .Rosie-makanan-imgs { flex-wrap: wrap; justify-content: center; }
+    }
+  </style>
+</head>
+<body>
+
+
+
+
+<div class="Rosie-container" style="background-color:#fcfade">
+
+
+
+
+ 
+  <section class="Rosie-box Rosie-biodata" style="background-color:#f2d1d0">
+     
+    <a href="index.html" class="Rosie-foto">  
+     
+   <img src="https://files.catbox.moe/d02f8n.jpg" width="170" height="170" style="border-radius:50%; border:2px solid black;">
+</a>
+
+
+
+
+
+
+
+
+    <div class="Rosie-biodata-right">
+      <div class="Rosie-title-pill" style="background-color:pink"><b>CV Biodata</b></div>
+      <div class="Rosie-biodata-row"><div class="Rosie-label" style="background-color:pink"><center><b>Nama</b></center></div><div class></div>Rosamund Chandra Lee</div>
+      <div class="Rosie-biodata-row"><div class="Rosie-label" style="background-color:pink"><center><b>Umur</b></center></div><div class></div>13 tahun</div>
+      <div class="Rosie-biodata-row"><div class="Rosie-label" style="background-color:pink"><center><b>Kelas</b></center></div><div class></div>8.2 SMP</div>
+      <div class="Rosie-biodata-row"><div class="Rosie-label" style="background-color:pink"><center><b>Sekolah</b></center></div><div class></div>Santa Laurensia Suvarna Sutera</div>
+    </div>
+  </section>
+
+
+
+
+ 
+  <div class="Rosie-row-2">
+    <section class="Rosie-box" style="background-color:#f7e2cb">
+      <div class="Rosie-title-pill" style="background-color:#fdd0b1"><b>Lagu Favorit</b></div>
+      <div class="Rosie-lagu-item"><div class="Rosie-check" style="background-color:#fdd0b1"></div><div class></div>"Shoot" by NONA</div>
+      <div class="Rosie-lagu-item"><div class="Rosie-check" style="background-color:#fdd0b1"></div><div class></div>"Lowkey" by NIKI</div>
+      <div class="Rosie-lagu-item"><div class="Rosie-check" style="background-color:#fdd0b1"></div><div class></div>"Dream" by Lisa</div>
+      <div class="Rosie-lagu-item"><div class="Rosie-check" style="background-color:#fdd0b1"></div><div class></div>"Means I Care" by Tate McRae</div>
+    </section>
+
+
+
+
+
+
+
+
+    <section class="Rosie-box" style="background-color:#f4efda">
+      <div class="Rosie-penyanyi-top">
+        <img src="https://i.pinimg.com/736x/69/53/43/695343fe008650f1b27fd1d227b32667.jpg" width="80" height="80"
+        style="border-radius:50%; border:2px solid black;">
+        <div class="Rosie-title-pill" style="background-color:#fff9c8"><b>Penyanyi Favorit</b></div>
+      </div>
+      <ul class="Rosie-dot-list">
+        <li><div class>Tate McRae</div></li>
+        <li><div class>Tyla</div></li>
+        <li><div class>Charlie Puth</div></li>
+        <li><div class>Justin Bieber</div></li>
+      </ul>
+    </section>
+  </div>
+
+
+
+
+
+
+
+
+  <div class="Rosie-row-3">
+    <div>
+      <div class="Rosie-gender-row">
+        <img src="https://i.pinimg.com/1200x/f5/25/2a/f5252af6e06cc7f1f47ba4d489c45a4d.jpg" width="80" height="80" style="border:2px solid black;">
+        <img src="https://i.pinimg.com/736x/24/3a/67/243a6799cb5fc885e70d6389b20b3d4a.jpg" width="80" height="80" style="border:2px solid black;">
+        <div class="Rosie-title-pill" style="background-color:#ffffff"><b>Jenis Kelamin</b></div>
+      </div>
+      <div class style="border-bottom: 3px solid black; width: 180px; margin-left: 180px; padding-bottom: 3px;"><center>Perempuan</center></div>
+     
+      <section class="Rosie-box Rosie-minuman-box" style="background-color:#cfe1e8">
+        <div class="Rosie-title-pill" style="background-color:#b3e1f8"><b>Minuman Favorit</b></div>
+        <div class="Rosie-minuman-imgs">
+          <img src="https://i.pinimg.com/736x/08/ac/a6/08aca67cdac5b3e1ee701b896ea7a0e7.jpg" width="120" height="120" style="border-radius:50%; border:2px solid black;">
+          <img src="https://i.pinimg.com/736x/2e/8d/cc/2e8dccea110d1131ea010bb3c6812270.jpg" width="120" height="120" style="border-radius:50%; border:2px solid black;">
+          <img src="https://i.pinimg.com/236x/0f/d4/ee/0fd4ee132c9b8ed0bd0da9df4cf1a97a.jpg" width="120" height="120" style="border-radius:50%; border:2px solid black;">
+        </div>
+        <div class="Rosie-minuman-lines">
+          <div class><u>Boba</u></div>
+          <div class><u>Matcha</u></div>
+          <div class><u>Jus Jeruk</u></div>
+        </div>
+      </section>
+    </div>
+
+
+
+
+    <section class="Rosie-cita-box" style="border: 2px solid black; padding: 3px;background-color:#dcead3">
+      <div class="Rosie-title-pill" style="background-color:#c6eed6"><center><b>Hobi</b></center></div>
+      <center><img src="https://i.pinimg.com/736x/d6/3a/53/d63a5302e5e95cf96ede330fb3fdf955.jpg" width="210" height="180" style="border:2px solid black;"></center>
+      <ul class="Rosie-dot-list">
+        <li><div class>Bermain Piano</div></li>
+        <li><div class>Membuat Art & Craft</div></li>
+        <li><div class>Ice Skating</div></li>
+      </ul>
+    </section>
+  </div>
+ 
+
+
+
+
+  <section class="Rosie-box Rosie-makanan" style="background-color:#e8d5fd">
+    <div class="Rosie-title-pill" style="background-color:#d0bfff"><b>Makanan Favorit</b></div>
+    <div class="Rosie-makanan-imgs">
+      <img src="https://i.pinimg.com/736x/27/54/79/275479c70f3da15d60e4d9da35d083a2.jpg" width="120" height="120" style="border-radius:50%; border:2px solid black;">
+      <img src="https://i.pinimg.com/736x/16/3a/ae/163aae0a25d1251da459baa9d5e59f37.jpg" width="120" height="120" style="border-radius:50%; border:2px solid black;">
+      <img src="https://i.pinimg.com/736x/b1/ad/50/b1ad501105d71c26fb566cd7c8b459c0.jpg" width="120" height="120" style="border-radius:50%; border:2px solid black;">
+      <img src="https://i.pinimg.com/1200x/d6/3b/ac/d63bacb97eb3a7007fbc56dbc8326759.jpg" width="120" height="120" style="border-radius:50%; border:2px solid black;">
+    </div>
+    <div class="Rosie-makanan-lines">
+      <div class><u>Sushi</u></div>
+      <div class><u>Ramen</u></div>
+      <div class><u>Steak</u></div>
+      <div class><u>Hot Pot</u></div>
+    </div>
+  </section>
+
+
+
+
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
